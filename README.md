@@ -5,6 +5,9 @@
 	.NET and Mono methods during runtime.
 </p>
 
+## Net运行时  通过CLR层面来监控和劫持方法执行，可作为日志性能监控和埋点。
+
+
 ### About
 
 Harmony gives you an elegant and high level way to alter the functionality in applications written in C#. It works great in games and is well established in titles like **7 Days To Die**, **BattleTech**, **Besiege**, **Cities:Skylines**, **Kerbal Space Program**, **Oxygen Not Included**, Ravenfield, **Rimworld**, Sheltered, **Stardew Valley**, Staxel, **Subnautica**, The Ultimate Nerd Game, Total Miner, Unturned and many more.
