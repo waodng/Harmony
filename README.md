@@ -14,6 +14,10 @@ Harmony gives you an elegant and high level way to alter the functionality in ap
 
 It is also used in unit testing WPF controls and in many other areas.
 
+Harmony为您提供了一种优雅而高级的方式来修改用c#编写的应用程序中的功能。它在游戏中表现出色，并在**7天死期**，**BattleTech**， **围攻**，**城市:天际线**，**Kerbal Space Program**， **Oxygen Not Included**， Ravenfield， **Rimworld**， shelter， **Stardew Valley**， Staxel， **Subnautica**， The Ultimate Nerd Game, Total Miner, Unturned等游戏中得到了广泛的应用。
+
+它还用于WPF控件的单元测试和许多其他领域。
+
 ### How it works
 
 If you develop in C# and your code is loaded as a module/plugin into a host application, you can use Harmony to alter the functionality of all the available assemblies of that application. Where other patch libraries simply allow you to replace the original method, Harmony goes one step further and gives you:
@@ -23,6 +27,22 @@ If you develop in C# and your code is loaded as a module/plugin into a host appl
 • Modify the original with IL code processors  
 • Multiple Harmony patches co-exist and don't conflict with each other  
 • Works at runtime and does not touch any files
+
+它是如何工作的
+
+如果您使用c#进行开发，并且您的代码作为模块/插件加载到宿主应用程序中，那么您可以使用Harmony来更改该应用程序的所有可用程序集的功能。其他补丁库只允许你替换原来的方法，而Harmony则更进一步，为你提供:
+
+
+
+•一种保持原始方法不变的方法
+
+•在原始方法之前或之后执行你的代码
+
+•用IL代码处理器修改原始代码
+
+•多个Harmony补丁共存，互不冲突
+
+•在运行时工作，不接触任何文件
 
 ### Installation
 
